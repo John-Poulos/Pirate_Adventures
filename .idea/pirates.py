@@ -193,8 +193,8 @@ match fateChosen:
                     the island, they are content enough to set sail...
                     ''')
 
-    case 1:
+    case 1: #treasure hunt on deserted island? Need lead up - sail into port - tavern --> 1. fight fire map
+        # 2. overhear drunken brag about a treasure - buy him drinks / tool him up - confesses he heard it from
+        #someone else --> 1. find the other person 2. sit at tavern
+        #maybe build story line as functions that can get called to do a better job of randomizing the story?
         print("Todo")
-
-    case 2:
-        print("Default - error should not see")
