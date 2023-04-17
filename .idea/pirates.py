@@ -42,9 +42,19 @@ else:
     fate = int(input('''Roll to set your course and fate....
                 You pick up the bones and roll...
                 (Choose a number from 1-10): '''))
+    plank = 0
     while fate not in range(1,11):
         os.system('cls')
-        fate = int(input('''You fool! The bones don't lie.
+        plank +=1
+        if(plank > 1):
+            print('''
+                You were warned... now walk!!
+                You are left alone in the ocean to die.
+            ''')
+            time.sleep(3)
+            exit()
+        else:
+            fate = int(input('''You fool! The bones don't lie.
                 Roll again or walk the plank!!
                 (Choose a number from 1-10): '''))
 
