@@ -1,4 +1,4 @@
-print('''       Welcome to JoPu's Pirate Adventures!
+print('''       Welcome to Captain Crimson's Pirate Adventures!
                                                   !_
                                                   |*~=-.,
                                                   |_,-'`
